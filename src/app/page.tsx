@@ -54,23 +54,23 @@ export default function Page() {
 
   const projects: Project[] = [
     {
-      title: 'Sistem Pencatatan Siswa PPDB',
+      title: 'System Input Data PPDB',
       description: 'Backend system for student registration and high school visit using Next.js and Prisma',
       image: '/images/sistem-ppdb.png',
       link: 'https://github.com/ganasman/be-ppdb',
       tech: ['Next.js', 'Prisma', 'TypeScript']
     },
     {
-      title: 'Sistem Pemesanan Tiket Shuttle Bus',
+      title: 'System Booking Tiket Shuttle Bus',
       description: 'Web-based shuttle bus ticket booking system using Next.js and Supabase',
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop',
+      image: '/images/ibis.png',
       link: 'https://example.com',
       tech: ['Supabase', 'Next.js', 'NestJS']
     },
     {
       title: 'CBT Online',
       description: 'Computer-Based Test online application using PHP and CodeIgniter',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=500&fit=crop',
+      image: '/images/cbt.png',
       link: 'https://example.com',
       tech: ['PHP', 'MySQL', 'CodeIgniter']
     }
